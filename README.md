@@ -1,28 +1,34 @@
-# DDos-Attack 
-### What Is A DDos-Attack
+# HCam
+HCam - it's a tool for get access to camera. 👀 
 
-### A Distributed Denial of Service (DDoS) attack is an attempt to make an online service unavailable 
-by overwhelming it with traffic from multiple sources. They target a wide variety of important resources
-from banks to news websites, and present a major challenge to making sure people can publish and access important information
 
-### Dwonload&Install
+# Download&Install
+Install **Termux**  
+* apt update  
+* apt upgrade  
+* pkg install git && pkg install python3  
+* git clone https://github.com/Max412/easycamhack  
+* cd easycamhack  
+* pip install -r requirements.txt  
+* python3 easycamhack.py  
 
-### git clone https://github.com/Ha3MrX/DDos-Attack
 
-### cd DDos-Attack
+# Usage
+On the first run, you will need to enter the <a href="https://account.shodan.io/login" target="_blank">Shodan API</a>:
+![capture](https://github.com/Max412/DoS-ru/blob/main/cam2.png?raw=true)
 
-### chmod +x ddos-attack.py
+<h2>Donation</h2>
 
-### python ddos-attack.py
+ * PayPal donation: [![PayPal page](https://img.shields.io/badge/donate-Paypal-fd8200.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=JCY2BGLULSWVJ&lc=US&item_name=ScreenToGif&item_number=screentogif&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+ * Patreon subscription: [![Patreon subscription](https://img.shields.io/badge/subscribe-Patreon-orange.svg)](https://www.patreon.com/nicke)
 
-### ScreenShot 
+![capture](https://github.com/Max412/DoS-ru/blob/main/cam.png?raw=true)
 
-![capture](https://user-images.githubusercontent.com/33704360/38769260-91bfc362-3fb4-11e8-86c6-d5a3ca13c31a.PNG)
 
-### YouTube channel
 
-https://www.youtube.com/channel/UCCgy7i_A5yhAEdY86rPOinA
 
-### Video Tutorial
 
-https://www.youtube.com/watch?v=-e3Iia_P7rA
+
+
+
+<hr style="border:2px solid blue">
