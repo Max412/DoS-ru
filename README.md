@@ -20,12 +20,13 @@ On the first run, you will need to enter the <a href="https://account.shodan.io/
 
 # Flags
 * `--api` [NEW_API]  
-  change the API key for further use of the program.
+  Changing the API key you entered when you first started, for example: `python3 hcam.py --api 7TeyFZ8oyLulHwYUOcSPzZ5w3cLYib65`
 
-* `--ip` [IP]
-   Check your specified IP
+* `--ip` [IP]  
+   Check the IP camera for vulnerability by entering the password, for example: `python3 hcam.py --ip 12.3.456.78`
    
-* `--country` [COUNTRY IN Aplha-2 FORMAT, FOR EXAMPLE: US]
+* `--country` [COUNTRY IN Alpha-2 FORMAT]  
+   Specify the country to search for vulnerable cameras: `python3 hcam.py --country US`
 
 <h2>Donation</h2>
 
