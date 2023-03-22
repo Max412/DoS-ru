@@ -4,7 +4,7 @@ HCam - it's a tool for get access to camera. 👀
 
 # Download&Install
 1) Install <a href="https://termux.dev" target="_blank">**Termux**</a>  
-2) **Turn this commands in Termux:**
+2) **Turn this commands:**
 * `apt update`  
 * `apt upgrade`  
 * `pkg install git && pkg install python3`  
