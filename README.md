@@ -3,19 +3,29 @@ HCam - it's a tool for get access to camera. 👀
 
 
 # Download&Install
-Install **Termux**  
-* apt update  
-* apt upgrade  
-* pkg install git && pkg install python3  
-* git clone https://github.com/Max412/easycamhack  
-* cd easycamhack  
-* pip install -r requirements.txt  
-* python3 easycamhack.py  
+1) Install **Termux**  
+2) **Turn this commands in Termux:**
+* `apt update`  
+* `apt upgrade`  
+* `pkg install git && pkg install python3`  
+* `git clone https://github.com/Max412/easycamhack`  
+* `cd easycamhack`  
+* `pip install -r requirements.txt`  
+* `python3 easycamhack.py`  
 
 
 # Usage
 On the first run, you will need to enter the <a href="https://account.shodan.io/login" target="_blank">Shodan API</a>:
 ![capture](https://github.com/Max412/DoS-ru/blob/main/cam2.png?raw=true)
+
+# Flags
+* `--api` [NEW_API]  
+  change the API key for further use of the program.
+
+* `--ip` [IP]
+   Check your specified IP
+   
+* `--country` [COUNTRY IN Aplha-2 FORMAT, FOR EXAMPLE: US]
 
 <h2>Donation</h2>
 
